@@ -1,11 +1,14 @@
 header {
-    background-color: rgb(231, 106, 106);
     width : 100%;
     height: 71px;
     margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header, .submenu-button {
+    background-color: rgb(236, 76, 76);
 }
 
 body {
@@ -36,41 +39,38 @@ body {
     height: 28px;
 }
 
-.navigation-header-item p {
+/*paragraphe enfant direct de item d'header*/
+.navigation-header-item p, .submenu-item p {
+    color: white;;
     font-size: 14px;
     text-align: center;
-    padding: 0px 4px;
+    padding: 4px 2px 0px 4px;
     margin: 0px;
 }
 
 .left-header {
-    background-color: rgb(213, 161, 161);
-    width: 71px;
+    background-color: rgb(149, 47, 47);
+    width: 100px;
     height: 100%;
     position: fixed;
     display: flex;
     flex-direction: column;
 }
 
-.categories {
-    background-color: blue;
+.submenu-button {
+    border-top-right-radius: 15px;
+    padding: 5px 0px;
+    margin: 0.25px
 }
 
-.categories-header-item {
-    background-color: yellow;
+.submenu-item {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    margin: 5px;
 }
 
-.categories-header-item img {
+.submenu-item img {
     width: 31.5px;
     height: 30px;
-}
-
-.navigation-header-item p {
-    font-size: 14px;
-    text-align: center;
-    padding: 0px 4px;
-    margin: 0px;
 }
