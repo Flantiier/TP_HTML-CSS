@@ -8,7 +8,7 @@ header {
 }
 
 header, .submenu-button {
-    background-color: rgb(236, 76, 76);
+    background-color: rgb(232, 67, 67);
 }
 
 body {
@@ -42,7 +42,7 @@ body {
 /*paragraphe enfant direct de item d'header*/
 .navigation-header-item p, .submenu-item p {
     color: white;;
-    font-size: 14px;
+    font-size: 13.5px;
     text-align: center;
     padding: 4px 2px 0px 4px;
     margin: 0px;
@@ -59,8 +59,8 @@ body {
 
 .submenu-button {
     border-top-right-radius: 15px;
-    padding: 5px 0px;
-    margin: 0.25px
+    margin: 0.25px;
+    height: 100px;
 }
 
 .submenu-item {
