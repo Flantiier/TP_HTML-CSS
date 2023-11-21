@@ -11,8 +11,13 @@ header, .submenu-button {
     background-color: rgb(232, 67, 67);
 }
 
+html {
+    overflow-y: scroll;
+}
+
 body {
     margin: 0;
+    font-family: sans-serif;
 }
 
 .logo-header {
@@ -58,6 +63,9 @@ body {
 }
 
 .submenu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-top-right-radius: 15px;
     margin: 0.25px;
     height: 100px;
@@ -65,12 +73,16 @@ body {
 
 .submenu-item {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     margin: 5px;
 }
 
 .submenu-item img {
-    width: 31.5px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+#central-menu {
+    height: 50px;
 }
