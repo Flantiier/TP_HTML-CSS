@@ -8,11 +8,7 @@ header {
 }
 
 header, .submenu-button {
-    background-color: rgb(232, 67, 67);
-}
-
-html {
-    overflow-y: scroll;
+    background-color: rgb(229, 28, 28);
 }
 
 body {
@@ -23,13 +19,14 @@ body {
 .logo-header {
     width: 96px;
     height: 24px;
-    margin: 0px 15px;
+    margin-left: 25px;
 }
 
 .navigation-header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 20px;
 }
 
 .navigation-header-item {
@@ -54,8 +51,8 @@ body {
 }
 
 .left-header {
-    background-color: rgb(149, 47, 47);
-    width: 100px;
+    background-color: rgb(153, 25, 25);
+    width: 90px;
     height: 100%;
     position: fixed;
     display: flex;
@@ -68,7 +65,7 @@ body {
     justify-content: center;
     border-top-right-radius: 15px;
     margin: 0.25px;
-    height: 100px;
+    height: 90px;
 }
 
 .submenu-item {
