@@ -2,6 +2,7 @@ header {
     width : 100%;
     height: 71px;
     margin: 0;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,6 +10,10 @@ header {
 
 header, .submenu-button {
     background-color: rgb(229, 28, 28);
+}
+
+header, .left-header {
+    z-index: 1;
 }
 
 body {
@@ -52,6 +57,7 @@ body {
 
 .left-header {
     background-color: rgb(153, 25, 25);
+    top: 71px;
     width: 90px;
     height: 100%;
     position: fixed;
@@ -82,4 +88,32 @@ body {
 
 #central-menu {
     height: 50px;
+}
+
+.grid-container {
+    background-color: grey;
+    top:71px;
+    left:90px;
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    padding: 5px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.grid-container div {
+    background-color: azure;
+    border-radius: 5px;
+    margin: 2.5px;
+}
+
+.grid-horizontal-element {
+    grid-column: span 2;
+}
+
+.grid-vertical-element {
+    grid-row: span 2;
 }
